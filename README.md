@@ -28,8 +28,8 @@ Follow these steps to set up the extension locally:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username code-reviewer-bot.gitcd code-reviewer-bot
-
+   git clone https://github.com/Gaurika-Sethi/Code-Reviewer-Bot-VS-Code-Extension-
+   
 2. **Install dependencies**
     ```bash
     npm install
