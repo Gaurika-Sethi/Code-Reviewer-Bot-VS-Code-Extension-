@@ -15,9 +15,9 @@ function activate(context) {
                     Give a short, clear, and beginner-friendly review.
 
                   Your response must follow this exact format:
-                  ⭐ Summary: (1-2 lines about the overall quality)
-                  🛠 Improvements: (3 bullet points with suggestions)
-                  🐞 Possible Bugs: (List any found along with line numbers or write "No major bugs found")
+                  Summary: (1-2 lines about the overall quality)
+                  Improvements: (3 bullet points with suggestions)
+                  Possible Bugs: (List any found along with line numbers or write "No major bugs found")
                    Code:
                   \`\`\`
                   ${code}
@@ -51,10 +51,10 @@ function activate(context) {
 
       const review = result.response;
       if (review) {
-        output.appendLine("\n✨ DeepSeek's Code Review ✨\n");
+        output.appendLine("\n DeepSeek's Code Review \n");
         output.appendLine(review);
       } else {
-        output.appendLine("⚠️ No review returned from DeepSeek.");
+        output.appendLine(" No review returned from DeepSeek.");
       }
     } catch (error) {
       vscode.window.showErrorMessage("Error contacting DeepSeek: " + error.message);
