@@ -131,6 +131,7 @@ Project Link: [Code Reviewer Bot VS Code Extension](https://github.com/Gaurika-S
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.  
+See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 
